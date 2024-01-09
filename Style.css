@@ -1,0 +1,535 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2021, 7:26:48 PM
+    Author     : Shavindu Thushara Sa
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@font-face {
+    font-family: "CC";
+    src: url(../Resources/vendor/font-awesome/fonts/Chococooky.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: CC;
+    color: #272829;
+    user-select: none;
+    background: #111111;
+}
+
+/* NAVIGATION BAR */
+
+#nav{
+    position: fixed;
+    top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+#navbar-brand{
+    font-family: Rubik Moonrocks;
+    color: #31d879;
+    font-weight: normal;
+    font-style: normal;
+    overflow: visible;
+    margin-left: 20px
+}
+
+/* COVER SECTION */
+
+#Cover{
+    height: auto;
+    font-size: 30px;
+    font-family: Rubik Moonrocks;
+    font-weight: bolder;
+    background: #31d879;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#Cover div p{
+    display: block;
+    padding-top: 9%;
+    margin: 0 auto 50px auto;
+}
+
+#Cover div img{
+    border-radius:21px;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,1);
+}
+
+#Cover div h1{
+    font-size: 20px;
+    margin: 50px auto 0 auto;
+}
+
+#Cover div a{
+    color: #111111;
+    font-size: 50px;
+    margin: 0 auto 1% auto;
+    width: 50px;
+    height: 100%;
+    text-decoration: none;
+}
+
+#Cover div a:hover{
+    color: #31d879;
+    background: #111111;
+    border: 3px solid #111111;
+    border-radius: 100%;
+    height: 100%;
+}
+
+/* ABOUT SECTION */
+
+#About{
+    height: 90vh;
+}
+
+#About div h1{
+    font-family: Rubik Moonrocks;
+    color: #31d879;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+
+.top{
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.und{
+    margin: 0;
+    transform: translateY(-20px);
+}
+
+#About #about-p{
+    color: #fff;
+    font-size: 20px;
+    margin: 100px auto 100px auto;
+}
+
+#About a{
+    text-align: center;
+    color: #31d879;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+
+#About a:hover{
+    color: #000;
+    background: #31d879;
+    border: 4px solid #31d879;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+#Steps{
+    background: #31d879;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+#Steps div h1{
+    font-family: Rubik Moonrocks;
+    color: #212431;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Steps .row .p-3{
+    border: 3px solid #000;
+    font-size: 18px;
+    transition: 1s;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+#Steps center{
+    margin-top: 30px;
+}
+#Steps i{
+    font-size: 50px;
+}
+
+#Steps .row .p-3:hover{
+    border-radius: 30px;
+    border: 3px dashed #fff;
+    background: #212431;
+    color: #31d879;
+    font-size: 22px;
+    transition: 1s;
+}
+
+
+#Steps center a{
+    color: #111111;
+    font-size: 50px;
+    margin: 0 auto 1% auto;
+    width: 50px;
+    height: 100%;
+    text-decoration: none;
+}
+
+#Steps center a:hover{
+    color: #31d879;
+    background: #111111;
+    border: 3px solid #111111;
+    border-radius: 100%;
+    height: 100%;
+}
+
+
+
+#Generate{
+    height: 90vh;
+}
+
+#Generate div h1{
+    font-family: Rubik Moonrocks;
+    color: #31d879;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+
+.top{
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.und{
+    margin: 0;
+    transform: translateY(-20px);
+}
+
+#Generate #about-p{
+    color: #fff;
+    font-size: 20px;
+    margin: 100px auto 100px auto;
+}
+
+#Generate a{
+    text-align: center;
+    color: #31d879;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+
+#Generate a:hover{
+    color: #000;
+    background: #31d879;
+    border: 4px solid #31d879;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+#Generate .row #re{
+    padding: 50px;
+    height: fit-content;
+}
+
+#Generate .row #re h5{
+    color: #fff;
+    font-weight: bold;
+}
+
+#Generate .row #re img{
+    height: 450px;
+}
+
+#Generate .row #bl{
+    padding: 50px;
+    color: #fff;
+    height: fit-content;
+}
+
+#Generate .row #bl h5{
+    margin-bottom: 50px;
+}
+
+#Generate .form-label{
+    margin-bottom: 20px;
+}
+
+#Generate .form-control{
+    margin-bottom: 20px;
+    height: 60px;
+    font-size: 20px;
+}
+
+#Generate #fol{
+    margin-bottom: 20px;
+}
+
+#Generate #upqr{
+    background: #444744;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    color: #fff;
+    line-height: 30pt;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#btn-save button{
+    padding: 15px 50px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+#footers div{
+    position: relative;
+    float: right;
+    margin: 0 50px 20px 0;
+    z-index: 1;
+}
+
+#footers div a{
+    text-align: center;
+    color: #31d879;
+    font-size: 50px;
+    margin: 0 auto 1% auto;
+    text-decoration: none;
+}
+
+#footers div a:hover{
+    color: #000;
+    background: #31d879;
+    border: 4px solid #31d879;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.company{
+    color: #31d879;
+}
+
+.footer {
+    background-color: #000;
+    color: #999999;
+    text-align: left;
+    padding: 15px 0 0 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    padding-bottom: 130px;
+    color: #18d26e;
+}
+
+.contact .info {
+    padding: 30px;
+    width: 100%;
+    height: fit-content;
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #18d26e;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #212431;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    font-family: ee;
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #18d26e;
+}
+
+.contact .headding h4 {
+    font-family: ee;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 48.5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #18d26e;
+}
+
+.contact .info p {
+    font-family: ee;
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #a8a9b4;
+}
+
+.contact .info .email p {
+    padding-top: 5px;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #18d26e;
+    color: #212431;
+}
+
+.contact .php-email-form {
+    width: 100%;
+    padding: 30px;
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact .php-email-form label {
+    padding-bottom: 8px;
+    font-family: ee;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 3px;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .php-email-form input {
+    background: #212431;
+    color: #fff;
+    height: 50px;
+    font-family: ee;
+}
+
+.contact .php-email-form textarea {
+    padding: 10px 15px;
+    background: #212431;
+    color: #fff;
+}
+
+.contact .php-email-form button[type="submit"] {
+    background: #212431;
+    border: 0;
+    padding: 10px 24px;
+    color: #18d26e;
+    transition: 0.4s;
+    border-radius: 4px;
+    font-family: ee;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+    background: #18d26e;
+    color: #212431;
+}
+
+.contact .php-email-form input:focus,.contact .php-email-form textarea:focus, .contact .php-email-form button:focus {
+    border: 1px solid #18d26e;
+}
+
+#contact div .offcanvas {
+    height: fit-content;
+    color: #fff;
+    background: #111111;
+    padding: 20px 50px 20px 50px
+}
+
+#contact div .offcanvas .offcanvas-title {
+    font-family: bb;
+    color: #31d879;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#contact div a{
+    color: #31d879;
+    font-size: 30px;
+}
+
+#contact div a:hover{
+    color: red;
+
+}
